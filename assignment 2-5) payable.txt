@@ -1,0 +1,5 @@
+package Employee;
+
+public interface Payable {
+	abstract public double getPayment();
+}

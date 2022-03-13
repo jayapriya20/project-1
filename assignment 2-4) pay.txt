@@ -1,0 +1,10 @@
+package office;
+
+public class payment {
+
+	public static void main(String[] args) {
+		Employee employee=new
+				CommissionEmployee(100, "priya", 2.1, 5000000);
+		System.out.println(employee.getPayment());
+	}
+}
